@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEP Pedia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo"><a href="#slider">WEP</a></div>
+                <button class="menu" id="menu">&#9776;</button>
+                <nav>
+                    <ul>
+                        <li><a href="#slider">Home</a></li>
+                        <li><a href="#chars">Characters</a></li>
+                        <li><a href="#eps">Episodes</a></li>
+                        <li><a href="#gal">Gallery</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="content">
+                <div id="slider"></div>
+                <div class="controls">
+                    <button id="prev">⏮</button>
+                    <button id="next">⏭</button>
+                </div>
+
+                <div id="chars">
+                    <h2>Characters</h2>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="img/char/ai-ohto.jpeg" />
+                            <p>Ai Ohto</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/char/neiru-aonuma.jpeg" />
+                            <p>Neiru Aonuma</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/char/rika-kawai.jpeg" />
+                            <p>Rika Kawai</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/char/momoe-sawaki.jpeg" />
+                            <p>Momoe Sawaki</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/char/koito-nagase.jpeg" />
+                            <p>Koito Nagase</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/char/urra-acca.jpeg" />
+                            <p>Urra-Acca</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/char/frill.jpeg" />
+                            <p>Frill</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="eps">
+                    <h2>Episodes</h2>
+                    <div class="eps-wrapper">
+                        <select id="select-eps">
+                            <option value="" disabled>-- Choose Episode --</option>
+                        </select>
+                        <aside>
+                            <img id="img-eps" />
+                        </aside>
+                        <article><p id="desc-eps"></p></article>
+                    </div>
+                </div>
+                <div id="gal">
+                    <h2>Gallery</h2>
+                    <div class="gal-wrapper">
+                        <div class="gal-item"><img src="img/gal/ohto1.gif" alt="Placeholder" /></div>
+                        <div class="gal-item"><img src="img/gal/ohto2.gif" alt="Placeholder" /></div>
+                        <div class="gal-item"><img src="img/gal/ohto3.gif" alt="Placeholder" /></div>
+                        <div class="gal-item"><img src="img/gal/neiru-aonuma.gif" alt="Placeholder" /></div>
+                        <div class="gal-item"><img src="img/gal/rika-kawai.gif" alt="Placeholder" /></div>
+                        <div class="gal-item"><img src="img/gal/momoe-sawaki.gif" alt="Placeholder" /></div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="top">
+                    <ul>
+                        <li><a href="#slider">Home</a></li>
+                        <li><a href="#chars">Characters</a></li>
+                        <li><a href="#eps">Episodes</a></li>
+                        <li><a href="#gal">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="bottom">Made with 🖤 by Someone</div>
+            </footer>
+        </div>
+
+        <!-- all script -->
+        <script src="script.js"></script>
+    </body>
+</html>
